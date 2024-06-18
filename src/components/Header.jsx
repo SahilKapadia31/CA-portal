@@ -30,13 +30,13 @@ const Header = () => {
                 <div className="container">
                     <div className="row py-3">
                         <div className="col-md-6">
-                            <img src="public/logo.png" alt="" />
+                            <img src="/logo.png" alt="" />
                         </div>
                         <div className="col-md-6">
                             <div className="float-end d-inline-flex gap-5">
                                 <div className="d-flex gap-2">
                                     <div className="time-img">
-                                        <img src="public/time.png" alt="" />
+                                        <img src="/time.png" alt="" />
                                     </div>
                                     <div className="">
                                         <p className='m-0 fs-7'>Contact Time</p>
@@ -45,7 +45,7 @@ const Header = () => {
                                 </div>
                                 <div className="d-flex gap-2">
                                     <div className="email-img">
-                                        <img src="public/email.png" alt="" />
+                                        <img src="/email.png" alt="" />
                                     </div>
                                     <div className="">
                                         <p className='m-0 fs-7'>Contact Time</p>

@@ -6,7 +6,7 @@ const Hero = () => {
             <div className="container">
                 <div className="row pt-5 pb-4">
                     <div className="col-md-5 py-3">
-                        <img src="public/hm-about.jpg" className='h-100 w-100' alt="" />
+                        <img src="/hm-about.jpg" className='h-100 w-100' alt="" />
                     </div>
                     <div className="col-md-7">
                         <h4 className='fw-bold'>LOREM IPSUM IS SIMPLY DUMMY</h4>
@@ -31,7 +31,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/business-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">Start my Business</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">Considering registering company in India and that too in a fast and hassle-free</p>
@@ -42,7 +42,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/tax-reg-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">Business and Tax Registration</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">In the era of globalization entrepreneurship is the need of the</p>
@@ -53,7 +53,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/gst-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">GST</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">GST is a huge tax reform in India post-Independence</p>
@@ -64,7 +64,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/intellectual-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">Intellectual Property Rights</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">A trademark is typically a name, word, phrase, logo, symbol, design, image</p>
@@ -75,7 +75,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/advisory-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">Startup Advisory</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">We understand that for a startup, the primary focus is to grow their</p>
@@ -86,7 +86,7 @@ const Hero = () => {
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
-                                        <img src="public/business-icon.png" alt="Start my Business" className="img-fluid" />
+                                        <img src="/foreign-direct-investment-icon.png" alt="Start my Business" className="img-fluid" />
                                     </div>
                                     <h5 className="card-title fw-semibold fs-18">Foreign Investment in India</h5>
                                     <p className="card-text fs-7 text-body-secondary lh-base">Foreign investment in India is primarily regulated by the FDI policy</p>
@@ -187,7 +187,7 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 d-none d-lg-flex align-items-center justify-content-center">
-                            <img src="public/hm-call.png" alt="Contact Image" className="contact-image" />
+                            <img src="/hm-call.png" alt="Contact Image" className="contact-image" />
                         </div>
                     </div>
                 </div>
