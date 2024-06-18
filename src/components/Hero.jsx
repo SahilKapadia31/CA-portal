@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Hero = () => {
+    useEffect(() => {
+        Aos.init();
+    }, [])
+
     return (
         <div>
             <div className="container">
                 <div className="row pt-5 pb-4">
                     <div className="col-md-5 py-3">
-                        <img src="/hm-about.jpg" className='h-100 w-100' alt="" />
+                        <img data-aos="fade-right" src="/hm-about.jpg" className='h-100 w-100' alt="" />
                     </div>
-                    <div className="col-md-7">
+                    <div className="col-md-7" data-aos="fade-left">
                         <h4 className='fw-bold'>LOREM IPSUM IS SIMPLY DUMMY</h4>
                         <p className='fs-7 mt-4 lh-base text-body-secondary'>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -27,7 +33,7 @@ const Hero = () => {
                     <h2 className="fw-bold text-center my-5">Our Services <span className="text-warning">Offerings</span>
                     </h2>
                     <div className="row mt-4 row-gap-2">
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in-right">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -38,7 +44,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -49,7 +55,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in-left">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -60,7 +66,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in-right">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -71,7 +77,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -82,7 +88,7 @@ const Hero = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-4 mb-3">
+                        <div className="col-md-4 mb-3" data-aos="zoom-in-left">
                             <div className="card h-100 border-light-subtle rounded-0 ">
                                 <div className="card-body py-5 px-4 text-center">
                                     <div className="icon mb-3 text-center">
@@ -107,8 +113,8 @@ const Hero = () => {
                     <h2 className='py-4 m-0'>News Section</h2>
                     <div className="row pb-4">
                         <div className="col-lg-4 col-md-6">
-                            <div className="card news-card rounded-0 border-0 h-100">
-                                <h3 className="card-header rounded-0 text-white fs-4">News</h3>
+                            <div className="card news-card rounded-0 border-0 h-100" data-aos="zoom-in">
+                                <h3 className="card-header news rounded-0 text-white fs-4">News</h3>
                                 <div className="card-body">
                                     <p className='text-dark fs-7 fw-medium'>CBIC further extends enabling New Changes in GSTR-9 and GSTR-9C to Dec 21</p>
                                     <p className='text-dark fs-7 fw-medium'>17 Dec 19</p>
@@ -120,23 +126,25 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6">
-                            <div className="card news-card rounded-0 border-0 h-100">
-                                <h3 className="card-header rounded-0 text-white fs-4">Due Date Reminder</h3>
+                            <div className="card news-card  rounded-0 border-0 h-100" data-aos="zoom-in">
+                                <h3 className="card-header news rounded-0 text-white fs-4">Due Date Reminder</h3>
                                 <div className="card-body">
                                     <div>
-                                        <button className="btn fs-7 text-primary">Jan</button>
-                                        <button className="btn fs-7 text-primary">Feb</button>
-                                        <button className="btn fs-7 text-primary">Mar</button>
-                                        <button className="btn fs-7 text-primary">Apr</button>
-                                        <button className="btn fs-7 text-primary">May</button>
-                                        <button className="btn fs-7 text-primary">June</button>
-                                        <button className="btn fs-7 text-primary">July</button>
-                                        <button className="btn fs-7 text-primary">Aug</button>
-                                        <button className="btn fs-7 text-primary">Sep</button>
-                                        <button className="btn fs-7 text-primary">Oct</button>
-                                        <button className="btn fs-7 text-primary">Nov</button>
-                                        <button className="btn fs-7 text-primary">Dec</button>
-                                        <button className="btn fs-7 text-primary">All</button>
+                                        <button className="btn fs-8 text-dark fw-semibold ps-0">Jan</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Feb</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Mar</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Apr</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">May</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">June</button>
+                                        <br />
+                                        <button className="btn fs-8 text-dark fw-semibold ps-0">July</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Aug</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Sep</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Oct</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Nov</button>
+                                        <button className="btn fs-8 text-dark fw-semibold">Dec</button>
+                                        <br />
+                                        <button className="btn fs-8 text-dark fw-semibold ps-0">All</button>
                                     </div>
                                     <p className='text-dark fs-7 fw-medium'>November 19</p>
                                     <p className='text-dark fs-7 fw-medium'><strong>07 Jan 20</strong></p>
@@ -146,8 +154,8 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-12">
-                            <div className="card news-card rounded-0 border-0 h-100">
-                                <h3 className="card-header rounded-0 text-white fs-4">Blog News</h3>
+                            <div className="card news-card rounded-0 border-0 h-100" data-aos="zoom-in">
+                                <h3 className="card-header news rounded-0 text-white fs-4">Blog News</h3>
                                 <div className="card-body">
                                     <p className='text-dark fs-7 fw-medium'><strong>09 Dec 2019 About Us</strong> - ASSOCIATES is a professional firm of Chartered Accountants s...</p>
                                 </div>

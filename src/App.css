@@ -17,6 +17,10 @@
   font-size: 14px !important;
 }
 
+.fs-8 {
+  font-size: 12px !important;
+}
+
 .fs-18 {
   font-size: 18px !important;
 }
@@ -134,4 +138,23 @@
 
 .footer-bottom {
   text-align: center;
+}
+
+.news {
+  position: relative;
+  background-color: #050521 !important;
+}
+
+.news::after {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid #050521;
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100%;
 }
